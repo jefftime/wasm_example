@@ -1,0 +1,7 @@
+= Compilation
+
+clang -c -o *filename*.o --target=wasm32 *filename*.c *other-args*
+
+== Use either
+wasm-ld --no-entry --export=*symbol* -o *filename*.wasm *filename*.o
+wasm-ld --no-entry --export-all -o *filename*.wasm *filename*.o
