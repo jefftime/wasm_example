@@ -1,10 +1,10 @@
-ANSI C WebAssembly Demo
+ANSI C WEBASSEMBLY DEMO
 
   This repository demonstrates compiling ANSI C to WebAssembly only using clang
   and wasm-ld. It also doesn't require using a web server to provide the .wasm
   file. It can be run in a browser straight from the index.html file
 
-Prerequisites
+PREREQUISITES
 
   This project requires you to have the following command line tools:
 
@@ -14,7 +14,7 @@ Prerequisites
     * echo
     * base64
 
-Usage
+USAGE
 
   You can run this demo by running:
 
