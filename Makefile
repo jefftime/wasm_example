@@ -1,10 +1,10 @@
 wasm.js: main.wasm
-	@echo -e wasm.js: compiling...
-	@truncate -s 0 wasm.js
-	@echo -n export const wasm_src = \' >> wasm.js
-	@base64 -w 0 main.wasm >> wasm.js
-	@echo \'\; >> wasm.js
-	@echo -e wasm.js: done!
+	@echo -e $@: compiling...
+	@truncate -s 0 $@
+	@echo -n export const wasm_src = \' >> $@
+	@base64 -w 0 main.wasm >> $@
+	@echo \'\; >> $@
+	@echo -e $@: done!
 
 main.o: main.c
 	@echo -e $@: compiling...

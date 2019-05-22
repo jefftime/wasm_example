@@ -20,4 +20,5 @@ Usage
 
     $ make
 
-  Then simply open the index.html in an ECMAScript 6-conforming browser
+  Then simply open the index.html in an ECMAScript 6-conforming browser. You
+  should see output in the console from the WebAssembly function call.
